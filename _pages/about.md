@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: CS PhD Student | <a href='https://www.cs.cornell.edu/research/theory'>Cornell University</a> | <a href='https://cornell.edu'>Cornell University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me_icon.jpeg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>302, Bill and Melinda Gates Hall, Cornell University, Ithaca, NY - 14853</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second year Ph.D. student in the Computer Science department at Cornell University, where I have the great fortune to be advised by Prof. <a href='https://www.cs.cornell.edu/~rdk/'> Robert D. Kleinberg</a>. I completed my undergraduate at <a href='https://hmc.edu'>Harvey Mudd College</a> where I met <a href='https://www.cs.hmc.edu/~hadas/'>Prof. Ran Libeskind-Hadas</a> who got me really excited about algorithms and theoretical computer science.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My interests are broadly in theoretical computer science, especially in learning theory, algorithmic game theory and reinforcement learning. Currently, I'm working on calibrated forecasting of binary sequences in online setting, online median estimation and reward shaping in reinforcement learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond academic research, I have completed multiple internships at Microsoft and currently volunteer with <a href='https://youngdatascientists.org'>Young Data Scientists</a> and MathAction. In my freetime, I love to play soccer and chess.
