@@ -2,10 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Work in progress #Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="projects">
+<h2 class="category">Cornell University</h2>
+<div class="card-mt-3">
 
-Organize your courses by years, topics, or universities, however you like!
+</div>
+<h2 class="category">Harvey Mudd College</h2>
+</div>
