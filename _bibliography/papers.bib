@@ -7,6 +7,7 @@
   abbr={In Submission},
   title={Calibrating an online predictor via Approachability},
   author={Okoroafor, Princewill and Sun, Wen and Kleinberg, Robert},
+  abstract={Predictive models in ML need to be trustworthy and reliable, which often at the very least means outputting calibrated probabilities. This can be particularly difficult to guarantee in the online prediction setting when the outcome sequence can be generated adversarially. In this paper we introduce a technique using Blackwell’s approachability theorem for taking an online predictive model which might not be calibrated and transforming its predictions to calibrated predictions without much increase to the loss of the original model. Our proposed algorithm achieves calibration at a faster rate than existing techniques \citep{kuleshov} and is the first algorithm to offer a flexible tradeoff between calibration error and accuracy in the online setting. We demonstrate this by characterizing the space of jointly achievable calibration and regret using our technique. },
   journal={Preprint, },
   year={2022},
   pdf={recalibration.pdf},
@@ -17,6 +18,41 @@
   abbr={In Submission},
   title={Non-Stochastic CDF Estimation Using Threshold Queries},
   author={Okoroafor, Princewill and Gupta, Vaishnavi and Kleinberg, Robert and Goh, Eleanor},
+  abstract={Estimating a univariate distribution is one of the most basic
+  and fundamental tasks in non-parametric statistics. In this
+  paper, we tackle the distribution estimation problem in a setting
+  with two challenging features. First, the algorithm does not
+  directly observe the data; instead, it only asks
+  a limited number of threshold queries about each sample.
+  Second, the data are not assumed to be independent
+  and identically distributed;
+  instead, we allow for an arbitrary process generating
+  the samples, including an adaptive adversary. These
+  considerations are relevant, for example, when modeling a
+  seller experimenting with posted prices to estimate the
+  distribution of consumers' willingness to pay for a product:
+  offering a price and observing a consumer's purchase decision
+  is equivalent to asking a single threshold query about their value,
+  and the distribution of consumers' values may be non-stationary
+  over time, as early adopters may differ markedly from late adopters.
+
+  Our main result quantifies, to within a constant factor, the
+  sample complexity of estimating the empirical CDF of a sequence
+  of elements of $[n]$, up to $\eps$ additive error,
+  using one threshold query per sample. The complexity depends only
+  logarithmically on $n$, and our result can be interpreted
+  as extending the existing logarithmic-complexity results for
+  noisy binary search to the more challenging setting where
+  noise is non-stochastic. Along the way to designing our
+  algorithm, we consider a more general model in which the
+  algorithm is allowed to make a limited number of
+  simultaneous threshold queries on each sample. We
+  solve this problem using Blackwell's Approachability Theorem
+  and the exponential weights method.
+  As a side result of independent interest, we
+  characterize the minimum number of simultaneous
+  threshold queries required by deterministic
+  CDF estimation algorithms.},
   journal={Preprint, },
   year={2022},
   pdf={median_estimation.pdf},

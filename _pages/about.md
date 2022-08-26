@@ -7,8 +7,8 @@ subtitle: CS PhD Student | <a href='https://www.cs.cornell.edu/research/theory'>
 profile:
   align: right
   image: me_icon.jpeg
-  address: #>
-     #<p>CS PhD Student | <a href='https://www.cs.cornell.edu/research/theory'>Theory Group</a> | <a href='https://cornell.edu'>Cornell University</a></p>
+  address: > 
+  <p>Email: <a href='mailto:pco9@cornell.edu'>pco9@cornell.edu</a></p> 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
