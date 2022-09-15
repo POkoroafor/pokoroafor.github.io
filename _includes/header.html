@@ -79,11 +79,8 @@
               {%- if site.enable_darkmode %}
                 
               <!-- RESUME -->
-              <li class="nav-item {% if page.url contains 'resume' %}active{% endif %}">
+              <li class="nav-item">
                 <a class="nav-link" href="{{ '/assets/pdf/resume-Princewill-Okoroafor.pdf' | relative_url }}">resume
-                  {%- if page.title == "resume" -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
                 </a>
               </li>
 
