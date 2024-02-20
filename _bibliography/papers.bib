@@ -3,26 +3,38 @@
 
 % testing comment
 
+@article{omnipredictionApproximateRank,
+  abbr={Under submission},
+  title={Omniprediction for Regression and the Approximate Rank of Convex Functions},
+  author={Parikshit Gopalan, Princewill Okoroafor, Prasad Raghavendra, Abhishek Shetty, Mihir Singhal},
+  abstract={
+Consider the supervised learning setting where the goal is to learn to predict labels  given points  from a distribution. An \textit{omnipredictor} for a class  of loss functions and a class  of hypotheses is a predictor whose predictions incur less expected loss than the best hypothesis in  for every loss in . Since the work of [GKR+21] that introduced the notion, there has been a large body of work in the setting of binary labels where , but much less is known about the regression setting where  can be continuous. Our main conceptual contribution is the notion of \textit{sufficient statistics} for loss minimization over a family of loss functions: these are a set of statistics about a distribution such that knowing them allows one to take actions that minimize the expected loss for any loss in the family. The notion of sufficient statistics relates directly to the approximate rank of the family of loss functions. Our key technical contribution is a bound of  on the -approximate rank of convex, Lipschitz functions on the interval , which we show is tight up to a factor of . This yields improved runtimes for learning omnipredictors for the class of all convex, Lipschitz loss functions under weak learnability assumptions about the class . We also give efficient omnipredictors when the loss families have low-degree polynomial approximations, or arise from generalized linear models (GLMs). This translation from sufficient statistics to faster omnipredictors is made possible by lifting the technique of loss outcome indistinguishability introduced by [GKH+23] for Boolean labels to the regression setting.},
+  journal={Preprint, },
+  year={2023},
+  pdf={https://arxiv.org/pdf/2401.14645v1.pdf},
+  selected={true}
+}
+
 @article{fairnessAndMaliciousnoise,
-  abbr={In Submission},
+  abbr={Neurips Workshop on Algorithmic Fairness, AISTATS 2024},
   title={On the Vulnerability of Fairness Constrained Learning to Malicious Noise},
   author={Avrim Blum and Princewill Okoroafor and Aadirupa Saha and Kevin Stangl},
   abstract={
 We consider the vulnerability of fairness-constrained learning to small amounts of malicious noise in the training data. Konstantinov and Lampert (2021) initiated the study of this question and presented negative results showing there exist data distributions where for several fairness constraints, any proper learner will exhibit high vulnerability when group sizes are imbalanced. Here, we present a more optimistic view, showing that if we allow randomized classifiers, then the landscape is much more nuanced. For example, for Demographic Parity we show we can incur only a Θ(α) loss in accuracy, where α is the malicious noise rate, matching the best possible even without fairness constraints. For Equal Opportunity, we show we can incur an O(α‾‾√) loss, and give a matching Ω(α‾‾√)lower bound. In contrast, Konstantinov and Lampert (2021) showed for proper learners the loss in accuracy for both notions is Ω(1). The key technical novelty of our work is how randomization can bypass simple "tricks" an adversary can use to amplify his power. We also consider additional fairness notions including Equalized Odds and Calibration. For these fairness notions, the excess accuracy clusters into three natural regimes O(α),O(α‾‾√) and O(1). These results provide a more fine-grained view of the sensitivity of fairness-constrained learning to adversarial noise in training data.},
   journal={Preprint, },
   year={2023},
-  %pdf={https://arxiv.org/pdf/2307.11892.pdf},
+  pdf={https://arxiv.org/pdf/2307.11892.pdf},
   selected={true}
 }
 
 @article{recalibration,
-  abbr={In Submission},
+  abbr={AISTATS 2024},
   title={Faster Recalibration of an Online Predictor via Approachability},
   author={Princewill Okoroafor and Wen Sun and Robert Kleinberg},
   abstract={Predictive models in ML need to be trustworthy and reliable, which often at the very least means outputting calibrated probabilities. This can be particularly difficult to guarantee in the online prediction setting when the outcome sequence can be generated adversarially. In this paper we introduce a technique using Blackwell’s approachability theorem for taking an online predictive model which might not be calibrated and transforming its predictions to calibrated predictions without much increase to the loss of the original model. Our proposed algorithm achieves calibration at a faster rate than existing techniques \citep{kuleshov} and is the first algorithm to offer a flexible tradeoff between calibration error and accuracy in the online setting. We demonstrate this by characterizing the space of jointly achievable calibration and regret using our technique. },
   journal={Preprint, },
   year={2022},
-  %pdf={recalibration.pdf},
+  pdf={https://arxiv.org/pdf/2310.17002.pdf},
   selected={true}
 }
 
