@@ -6,7 +6,7 @@ subtitle: CS PhD Student | <a href='https://www.cs.cornell.edu/research/theory'>
 
 profile:
   align: right
-  image: me_website2.jpg
+  image: princewill-headshot.png
   address: > 
     <p><a href='mailto:pco9@cornell.edu'>pco9[at]cornell[dot]edu</a></p> 
 
