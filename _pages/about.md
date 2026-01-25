@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS PhD Student | <a href='https://www.cs.cornell.edu/research/theory'>Theory Group</a> | <a href='https://cornell.edu'>Cornell University</a>
+subtitle: CS Postdoc | <a href='https://toc.seas.harvard.edu/'>Theory Group</a> | <a href='https://seas.harvard.edu/'>Harvard University</a>
 
 profile:
   align: right
